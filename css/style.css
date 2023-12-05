@@ -1,0 +1,122 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Shippori Mincho', serif;
+}
+
+.nav a {
+  font-weight: 600;
+}
+
+.banner{
+    background-image: url('../images/banner.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height:247px;
+}
+
+.content .d-flex {
+  align-items: center;
+}
+.diamond {
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  margin: 0 auto;
+  position: relative;
+  top: 132px;
+  z-index: 999;
+  z-index: 999;
+}
+
+a.nav-link.text-white {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+.pr-10rem{
+  padding-right:10rem;
+}
+.p-10rem{
+  padding:10rem;
+}
+
+.wrap-text {
+  padding: 120px;
+  text-align: center;
+}
+.wrap-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px; /* 171.429% */
+  letter-spacing: 10.85px;
+}
+
+
+.hr-lines:before{
+  content:" ";
+  display: block;
+  height: 2px;
+  width: 47%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #000;
+}
+
+.hr-lines{
+  position: relative;
+}
+
+.hr-lines{
+  position: relative;
+  /*  new lines  */
+  max-width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 2px;
+  width: 47%;
+  background: #000;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.wrap-text2 {
+  text-align: center;
+  padding: 10px;
+}
+.wrap-text2 h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.wrap-text3 {
+  text-align: center;
+  padding-top: 130px;
+}
+
+.wrap-text3 h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 6.9px;
+}
+
+.wrap-text4 {
+  text-align: center;
+  padding: 60px;
+}
+
+.wrap-text4 h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 246%;
+  letter-spacing: 5.8px
+}
