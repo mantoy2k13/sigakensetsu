@@ -1,11 +1,12 @@
 *{
-    padding:0px;
-    margin:0px;
+    padding:0vw;
+    margin:0vw;
     font-family: 'Shippori Mincho', serif;
 }
 
 .nav a {
   font-weight: 600;
+  padding:0px
 }
 
 .banner{
@@ -13,32 +14,32 @@
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
-    height:247px;
+    height:19.29vw; /* 247px*/
 }
 
 .content .d-flex {
   align-items: center;
 }
 .diamond {
-  width: 50px;
-  height: 50px;
+  width: 3.90vw; /*50px*/
+  height: 3.90vw;
   transform: rotate(45deg);
   margin: 0 auto;
   position: relative;
-  top: 132px;
+  top: 10.31vw; /*132px;*/
   z-index: 999;
   z-index: 999;
 }
 
 a.nav-link.text-white {
-  padding-right: 35px;
-  padding-left: 35px;
+  padding-right: 2.73vw;
+  padding-left: 2.73vw;
 }
 .pr-10rem{
-  padding-right:10rem;
+  padding-right:5.208vw; 
 }
 .p-10rem{
-  padding:10rem;
+  padding:5.208vw;
 }
 
 .wrap-text {
@@ -119,4 +120,33 @@ a.nav-link.text-white {
   font-weight: 500;
   line-height: 246%;
   letter-spacing: 5.8px
+}
+.srchdiv{
+  padding-top: 10px;
+  padding-bottom: 220px;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner{
+    background-image: url('../images/banner.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height:130px; /* 247px*/
+  }
+
+  .content .d-flex {
+    align-items: center;
+  }
+  .diamond {
+    width: 9.90vw; /*50px*/
+    height: 9.90vw;
+    transform: rotate(45deg);
+    margin: 0 auto;
+    position: relative;
+    top: 6.31vw; /*132px;*/
+    
+    z-index: 999;
+  }
+
 }
