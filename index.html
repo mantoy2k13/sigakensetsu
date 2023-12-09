@@ -16,6 +16,12 @@
   <link rel="stylesheet" href="css/bootstrap-grid.css">
   <link rel="stylesheet" href="css/bootstrap-utilities.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
   <script src="js/bootstrap.js"></script>
   <title>sigakensetsu</title>
     <!-- end styles and scripts border border-2 -- 滋賀県津>-->
@@ -28,91 +34,99 @@
 
 <body>
     <section id="header" class="header">
-        
-            <div class="">
-                <div class="d-flex flex-row flex-wrap ">
-                    <div class="flex-fill">
-                        <div class="p-4 mx-4">
-                            <nav class="navbar navbar-expand-lg">
-                                <div class="container-fluid">
-                                  <a class="navbar-brand d-none d-xl-block" href="#">TOP</a>
-                                  <a class="navbar-brand d-xl-none" href="#">X 野村證券 野村證券</a>
-                                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                  </button>
-                                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                      <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">野村證券</a>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link" href="#">野村證券</a>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link" href="#">野村證券</a>
-                                      </li>
-                                    </ul>
-                                   
-                                  </div>
-                                </div>
-                              </nav>
-                            <!--
-                                <nav class="nav ">
-                                <a class="nav-link text-dark active" aria-current="page" href="#">TOP</a>
-                                <a class="nav-link text-dark" href="#">野村證券</a>
-                                <a class="nav-link text-dark" href="#">野村證券</a>
-                                <a class="nav-link text-dark" href="#">野村證券</a>
-                            </nav>          
-                            -->
-                        </div>
-                        <!-- end nav manue-->
-                    </div>
-                    <div class="flex-fill">
-                        <div class="d-flex justify-content-end">
-                            <div class="d-flex flex-row-reverse">
-                                <div class="p-4 mx-4 d-none d-xl-block ">
-                                    <nav class="nav">
-                                        <a class="nav-link text-dark  px-2 pt-1 fw-bolder" aria-current="page" href="#">X 野村證券 野村</a>
-                                        <a class="nav-link text-dark " href="#"><img src="images/phonecall.png"></a>
-                                        <a class="nav-link text-dark " href="#"><img src="images/email.png"></a>
-                                        
-                                    </nav>          
-                                </div>
+        <div class="nav-container d-flex flex-row flex-wrap">
+            <div class="flex-fill">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="nav-links container-fluid">
+                            <a class="navbar-brand d-none d-xl-block" href="#">TOP</a>
+                            <a class="navbar-brand d-xl-none" href="#"><img src="images/logo.svg" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">物件情報</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">事業内容</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">企業情報</a>
+                                    </li>
+                                </ul>
                             </div>
-                        </div>  
+                        </div>
+                    </nav>
+                    <!--
+                        <nav class="nav ">
+                        <a class="nav-link text-dark active" aria-current="page" href="#">TOP</a>
+                        <a class="nav-link text-dark" href="#">野村證券</a>
+                        <a class="nav-link text-dark" href="#">野村證券</a>
+                        <a class="nav-link text-dark" href="#">野村證券</a>
+                    </nav>          
+                    -->
+                <!-- end nav manue-->
+            </div>
+            <div class="flex-fill align-self-center">
+                <div class="d-flex justify-content-end">
+                    <div class="d-flex flex-row-reverse">
+                        <div class="d-flex d-xl-block ">
+                            <nav class="nav side-nav">
+                                <a class="nav-links text-dark d-flex flex-row pe-2" aria-current="page" href="#"><img src="images/logo.svg" alt=""></a>
+                                <div class="communication d-flex flex-row">
+                                    <a class="nav-link text-dark ps-0 pe-1" href="#"><img src="images/phonecall.png"></a>
+                                    <a class="nav-link text-dark ps-0 pe-0" href="#"><img src="images/email.png"></a>
+                                </div>
+                            </nav>          
+                        </div>
                     </div>
-                </div>
-            </div>    
-            <div class="banner">
-               <div class="d-flex flex-row-reverse">        
-                    <h3 class="text-white text-left p-4">Property Information</h3>
-               </div> 
-               <!--<span class="glyphicon glyphicon-stop" style="transform: rotate(45deg);"></span> -->
-               <!-- <div class="diamond d-flex justify-content-center bg-black " style="width:30px;height:30px; transform: rotate(45deg); margin:0 auto; position: relative; bottom: -77px;"> -->
-                <div class="diamond d-flex justify-content-center bg-black" >
-                        <span class="text-white text-center p-2"><h2>物</h2></span>
-                </div>
-            </div>       
+                </div>  
+            </div>
+        </div>
+        <div class="banner">
+            <!-- <div class="d-flex flex-row-reverse">        
+                <h3 class="text-white text-left p-4">Property Information</h3>
+            </div> -->
+            <!--<span class="glyphicon glyphicon-stop" style="transform: rotate(45deg);"></span> -->
+            <!-- <div class="diamond d-flex justify-content-center bg-black " style="width:30px;height:30px; transform: rotate(45deg); margin:0 auto; position: relative; bottom: -77px;"> -->
+            <!-- <div class="diamond d-flex justify-content-center bg-black" >
+                    <span class="text-white text-center p-2"><h2>物</h2></span>
+            </div> -->
+            <div class="diamond">
+                <img src="images/Diamond Banner.svg" alt="">
+            </div>  
+        </div>  
+
+        <div class="mobile-banner">
+            <div class="diamond-mobile">
+                <img src="images/Diamond Banner.svg" alt="">
+            </div>  
+        </div>
+     
     </section>
 
-    <section class="content" id="content">
+    <!-- <section class="content" id="content">
         <div class="d-flex justify-content-center">
             <div class="d-flex flex-column">
                 <h2 class="text-black text-center w-25 pt-2 mt-4">件情報</h2>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section>
-        <div class="wrap-text">
-            <h2>弊社保有物件のご紹介</h2>
+    <section class="d-flex justify-content-center">
+        <div class="title wrap-text">
+            <span>弊社保有物件のご紹介</span>
         </div>
     </section>
 
     <section>
-        <div class="key">
+        <div class="key d-flex justify-content-center">
             <!-- <img class="hr-lines" src="images/key.png"> -->
-            <h2 class="hr-lines"> <img class="hr-lines" src="images/key.png"> </h2>
+            <img class="hr-lines" src="images/line-bar.svg">
+            <div class="key-mobile">
+                <img src="images/key-mobile.svg">
+            </div>
         </div>
     </section>
 
@@ -124,77 +138,77 @@
 
     <section>
         <div class="wrap-text3">
-            <h2>本物件は会員様限定の非公開物件となっております</h2>
+            <h2>本物件は会員様限定の非公開物件となっております。</h2>
         </div>
     </section>
 
     <section>
         <div class="wrap-text4">
             <h2>詳細をご覧頂くには、会員様宛のメールに記載されている</h2>
-            <h2>専用パスワードを下記フォームにご入力ください</h2>
+            <h2>専用パスワードを下記フォームにご入力ください。</h2>
         </div>
        
     </section>
     <section>
-        <div class="wrap-text2 srchdiv">
+        <div class="srchdiv d-flex justify-content-center">
             <form action="">
-                <label>
-                <input type="text" name="searchbar" class="border border-black p-2" placeholder="******" value="******">
-                <input type="submit" name="submit" id="submit" class="border border-black p-2 px-4 text-white bg-black relative" value="提出する">
+                <label class="d-flex  justify-content-center p-0">
+                <input type="text" name="searchbar" class="search border border-black" placeholder="***************" value="***************">
+                <input type="submit" name="submit" id="submit" class="submit-button border border-black text-white bg-black" value="送信">
                 </label>
             </form>
         </div>
     </section>
   
-    <section id="footer" class="footer">
-        
-            <div class="d-none d-xl-block" style="background:#181818;">
-                <div class="d-flex flex-row">
-                    <div class="flex-fill">
-                            <div class="d-flex justify-content-start p-4">
-                                <div class="p-4"><p class="text-white">X 野村證券 野村證券 </p></div>
-                                <div class="d-flex flex-column p-4">
-                                    <p class="text-white">〒607-8085 京都市山科区竹鼻堂ノ前町8-6 </p>
-                                    <p class="text-white">TEL : 075-581-2188　FAX : 075-581-2180</p>
-                                    <p class="text-white">宅建業 京都府知事免許（16）第905号 / 建設業京都府知事免許（般-3）第1740号</p>
-                                </div>
-                            </div>
-                        <!-- end nav manue-->
+    <section id="footer" class="footer container-fluid d-flex align-items-top">
+            <div class="footer-container d-flex width flex-row container-fluid justify-content-between desktop-footer">
+                    <div class="contacts d-flex justify-content-start">
+                        <div class="footer-logo">
+                            <p class="text-white"><img src="images/footerlogo.svg" alt="">
+                            </p>
+                        </div>
+                        <div class="d-flex flex-columnp">
+                            <span class="text-white">〒607-8085 京都市山科区竹鼻堂ノ前町8-6 </span>
+                            <span class="text-white">TEL : 075-581-2188　FAX : 075-581-2180</span>
+                            <span class="text-white">宅建業 京都府知事免許（16）第905号 / 建設業京都府知事免許（般-3）第1740号</span>
+                        </div>
                     </div>
-
-                    <div class="flex-fill">
-                        <div class="d-flex justify-content-end">
-                            <div class="d-flex flex-row-reverse">
-                                <div class="p-4 m-4">
-                                    <nav class="nav">
-                                        <a class="nav-link text-white active" aria-current="page" href="#">TOP</a>
-                                        <a class="nav-link text-white" href="#">野村證券</a>
-                                        <a class="nav-link text-white" href="#">野村證券</a>
-                                        <a class="nav-link text-white" href="#">野村證券</a>
-                                    </nav>          
-                                </div>
-                            </div>
-                        </div> 
+                    <!-- end nav manue-->
+                <div class="flex-fill">
+                    <div class="d-flex justify-content-end">
                         <div class="d-flex flex-row-reverse">
-                                <p class="text-white pr-10rem">Copy right &copy; KENJI KENSITSU CO... All rights reserved</p>
-                        </div> 
-                    </div>
+                            <div class="footer-side-nav">
+                                <nav class="nav-footer d-flex flex-row align-text-end">
+                                    <a class="nav-link text-white active justify-conten-between" aria-current="page" href="#">TOP</a>
+                                    <a class="nav-link text-white" href="#">物件情報</a>
+                                    <a class="nav-link text-white" href="#">野村證券</a>
+                                    <a class="nav-link text-white" href="#">企業情報</a>
+                                </nav> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="copyright d-flex flex-row-reverse">
+                            <p class="text-white align-text-right">Copyright © KEIJI KENSETSU CO.,Ltd All rights reserved.</p>
+                    </div> 
                 </div>
             </div>  
-            <div class="d-flex flex-row flex-wrap d-xl-none p-4" style="background:#181818;">
+            <div class="d-flex flex-row flex-wrap d-xl-none footer-mobile">
+                <div class="d-flex flex-column p-4">
+                    <img src="images/footerlogo.svg" alt="">
+                </div>
                 <div class="d-flex flex-column p-4">
                     <p class="text-white">〒607-8085 京都市山科区竹鼻堂ノ前町8-6 </p>
                     <p class="text-white">TEL : 075-581-2188　FAX : 075-581-2180</p>
-                    <p class="text-white">宅建業 京都府知事免許（16）第905号 / 建設業京都府知事免許（般-3）第1740号</p>
+                    <p class="text-white">宅建業 京都府知事免許（16）<br>第905号 / 建設業京都府知事免許（般-3）第1740号</p>
                 </div>
 
-                <div class="d-flex flex-column p-4 wrap-text4 ">
+                <div class="d-flex flex-column mobile-footer">
                         <a class="nav-link text-white active" aria-current="page" href="#">TOP</a>
-                        <a class="nav-link text-white" href="#">野村證券</a>
-                        <a class="nav-link text-white" href="#">野村證券</a>
-                        <a class="nav-link text-white" href="#">野村證券</a>
+                        <a class="nav-link text-white mobile-footer-nav" href="#">野村證券</a>
+                        <a class="nav-link text-white mobile-footer-nav" href="#">野村證券</a>
+                        <a class="nav-link text-white mobile-footer-nav" href="#">野村證券</a>
                         
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center mobile-copyright">
                         <p class="text-white">Copyright © KEIJI KENSETSU CO.,Ltd All rights reserved.</p>
                     </div>
                 </div>
