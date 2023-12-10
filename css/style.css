@@ -1,8 +1,8 @@
 
 * {
-  /* font-size: 0.06vw; */
-  padding: 0px;
-  margin: 0px;
+  font-size: 0.06vw;
+  padding: 0rem;
+  margin: 0rem;
   font-family: "Shippori Mincho", serif;
 }
 .br-sp {
@@ -10,36 +10,35 @@
 }
 
 body {
-  max-width: 1700px;
   margin: auto;
 }
 .nav-container {
-  padding: 22px 50px 25px 85px;
+  padding: 22rem 50rem 25rem 85rem;
 }
 .nav-container a {
-  font-size: 18px;
+  font-size: 18rem;
   font-weight: 600;
   width: max-content;
 }
 .navbar a {
   font-weight: 500;
-  padding: 12px 70px 10px 0;
-  letter-spacing: -0.4px;
+  padding: 12rem 70rem 10rem 0;
+  letter-spacing: -0.4rem;
 }
 .nav-link {
   font-weight: 500;
 }
 .navbar-nav li {
-  padding: 0 70px 0 0;
-  width: 97px;
-  margin-left: 71px;
+  padding: 0 70rem 0 0;
+  width: 97rem;
+  margin-left: 71rem;
 }
 .nav a {
-  font-size: 20px;
+  font-size: 20rem;
   font-weight: 500;
 }
 nav.nav.side-nav {
-  padding-right: 13.6px;
+  padding-right: 13.6rem;
 }
 
 .banner {
@@ -47,11 +46,11 @@ nav.nav.side-nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height:250px;
+  height:250rem;
   display: flex;
   justify-content: center;
-  margin-bottom: 155px;
-  margin-top: 3.4px;
+  margin-bottom: 155rem;
+  margin-top: 3.4rem;
 }
 
 .mobile-banner {
@@ -59,26 +58,26 @@ nav.nav.side-nav {
 }
 
 .title span {
-  font-size: 34px;
+  font-size: 34rem;
   font-weight: 800;
-  letter-spacing: 10px;
+  letter-spacing: 10rem;
 }
 .content .d-flex {
   align-items: center;
 }
 .diamond {
-  padding-top: 240px;
-  height: 76px;
+  padding-top: 240rem;
+  height: 76rem;
 }
-.pr-10px {
-  padding-right: 100px;
+.pr-10rem {
+  padding-right: 100rem;
 }
-.p-10px {
-  padding: 100px;
+.p-10rem {
+  padding: 100rem;
 }
 
 .wrap-text {
-  padding: 120px 0px 120px 0px;
+  padding: 120rem 0rem 120rem 0rem;
   text-align: center;
 }
 
@@ -88,7 +87,7 @@ nav.nav.side-nav {
 /* .hr-lines:before{
   content:" ";
   display: block;
-  height: 2px;
+  height: 2rem;
   width: 47%;
   position: absolute;
   top: 50%;
@@ -98,93 +97,93 @@ nav.nav.side-nav {
 
 .wrap-text2 {
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 2rem;
 }
 .wrap-text2 h2 {
-  font-size: 30px;
+  font-size: 30rem;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 60rem;
 }
 
 .wrap-text3 {
   text-align: center;
-  padding: 91px 0 24px 0;
+  padding: 91rem 0 24rem 0;
 }
 
 .wrap-text3 h2 {
-  font-size: 30px;
+  font-size: 30rem;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 9px;
+  line-height: 60rem;
+  letter-spacing: 9rem;
   }
 
 .wrap-text4 {
   text-align: center;
-  padding-bottom: 40px;
-  padding-bottom: 55px;
+  padding-bottom: 40rem;
+  padding-bottom: 55rem;
 }
 
 .wrap-text4 h2 {
-  font-size: 20px;
+  font-size: 20rem;
   font-weight: 500;
   line-height: 210%;
-  letter-spacing: 5px;
+  letter-spacing: 5rem;
   padding: 0 0 0 0;
 }
 .srchdiv {
-  padding: 0px 0px 415px 0px;
+  padding: 0rem 0rem 415rem 0rem;
 }
 .srchdiv input {
-  height: 52px;
-  padding: 0 10px 0 10px;
+  height: 52rem;
+  padding: 0 10rem 0 10rem;
 }
 .srchdiv .search {
-  width: 383px;
+  width: 383rem;
   text-align: left;
-  letter-spacing: 10px;
+  letter-spacing: 10rem;
   }
 label.d-flex.justify-content-center {
-  width: 567px;
+  width: 567rem;
 }
 .srchdiv .submit-button {
-  width: 132.05px;
+  width: 132.05rem;
 }
 .footer {
-  padding: 50px 0 50px 0;
+  padding: 50rem 0 50rem 0;
   background-color: #181818;
 }
 .footer-container {
-  padding-top: 20px;
-  padding-left: 15px;
+  padding-top: 20rem;
+  padding-left: 15rem;
 }
 .footer-logo {
-  padding: 0 50px 0 0;
+  padding: 0 50rem 0 0;
 }
 .contacts {
-  padding: 0 50px 0 105px;
+  padding: 0 50rem 0 105rem;
   }
 .contacts span {
   padding: auto;
   font-family: "Source Code Pro", monospace;
-  line-height: 20px;
-  font-size: 11px;
+  line-height: 20rem;
+  font-size: 11rem;
   }
 .nav-footer {
-  padding: 0 46px 0 0;
+  padding: 0 46rem 0 0;
   }
 .nav-footer a {
-  padding: 0 43px 0 43px;
-  width: 160px;
-  padding: 0px 0px 0px 0px;
-  font-size: 18px;
+  padding: 0 43rem 0 43rem;
+  width: 160rem;
+  padding: 0rem 0rem 0rem 0rem;
+  font-size: 18rem;
 }
 .copyright {
-  padding: 80px 70px 0 0;
+  padding: 80rem 70rem 0 0;
   }
 .copyright p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 12rem;
   }
 
   
@@ -193,11 +192,11 @@ label.d-flex.justify-content-center {
 @media only screen and (max-width: 899px) {
   
   * {
-    /* font-size: 0.25vw; */
+    font-size: 0.25vw;
   }
   
   body {
-    max-width: 390px;
+    width: auto;
   }
   .br-sp {
     display: block;
@@ -206,25 +205,25 @@ label.d-flex.justify-content-center {
     display: none;
   }
   .key img {
-    width: 340px;
+    width: 340rem;
   }
   .diamond {
-    padding-top: 40px;
+    padding-top: 40rem;
   }
   .wrap-text {
-    width: 195px;
-    padding: 117px 0px 27px 0px;
+    width: 195rem;
+    padding: 117rem 0rem 27rem 0rem;
     text-align: center;
   }
   .wrap-text2 h2 {
-    font-size: 15px;
+    font-size: 15rem;
   }
   .wrap-text3 {
-    width: 312px;
+    width: 312rem;
     margin: auto;
   }
   .wrap-text3 h2 {
-    font-size: 34px;
+    font-size: 34rem;
     line-height: normal;
   }
   .key-mobile {
@@ -237,7 +236,7 @@ label.d-flex.justify-content-center {
     display: none;
   }
   .title span {
-    font-size: 18px;
+    font-size: 18rem;
   }
   .desktop-footer {
     display: none !important;
@@ -255,7 +254,7 @@ label.d-flex.justify-content-center {
     display: none !important;
   }
   .diamond-mobile {
-    padding-top: 58px;
+    padding-top: 58rem;
   }
   .mobile-banner {
     display: block;
@@ -263,89 +262,89 @@ label.d-flex.justify-content-center {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 90px;
+    height: 90rem;
     display: flex;
     justify-content: center;
-    margin-bottom: 35px;
-    margin-top: 1px;
+    margin-bottom: 35rem;
+    margin-top: 1rem;
   }
   .wrap-text {
-    width: 320px;
-    padding: 245px 0px 120px 0px;
+    width: 320rem;
+    padding: 245rem 0rem 120rem 0rem;
   }
 
   .title span {
-    font-size: 35px;
+    font-size: 35rem;
   }
 
   .wrap-text2 h2 {
-    font-size: 30px;
+    font-size: 30rem;
   }
   .key img {
-    padding-bottom: 20px;
+    padding-bottom: 20rem;
   }
 
   .wrap-text3 {
-    padding: 110px 0px 58px 0vw;
+    padding: 110rem 0rem 58rem 0vw;
   }
   .wrap-text3 h2 {
-    letter-spacing: 3.5px;
+    letter-spacing: 3.5rem;
   }
 
   .wrap-text4 {
-    width: 300px;
+    width: 300rem;
     margin: auto;
-    padding-bottom: 66px;
+    padding-bottom: 66rem;
   }
   .wrap-text4 h2 {
-    font-size: 20px;
-    letter-spacing: 4px;
+    font-size: 20rem;
+    letter-spacing: 4rem;
   }
 
   .srchdiv {
-    padding: 0px 0px 300px 0px;
+    padding: 0rem 0rem 300rem 0rem;
   }
 
   .footer {
-    padding: 50px 0px 10px 0px;
+    padding: 50rem 0rem 10rem 0rem;
   }
   p.text-white {
-    font-size: 10px;
+    font-size: 10rem;
     margin-bottom: 0vw;
   }
 
   .mobile-footer {
-    padding-top: 18px;
+    padding-top: 18rem;
   }
 
   a.nav-link.text-white.mobile-footer-nav {
-    padding: 40px 0px 0px 0px;
+    padding: 40rem 0rem 0rem 0rem;
   }
 
   .mobile-copyright {
-    padding-top: 46px;
+    padding-top: 46rem;
   }
   .navbar-nav li a {
-    padding: 0 70px 0 0;
-    width: 50px;
-    font-size: 12px;
+    padding: 0 70rem 0 0;
+    width: 50rem;
+    font-size: 12rem;
   }
   .srchdiv .search {
-    width: 200px;
+    width: 200rem;
     text-align: left;
-    letter-spacing: 10px;
+    letter-spacing: 10rem;
     }
 }
 
 
 
-/* @media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600rem) {
   .banner{
     background-image: url('../images/banner.jpg');
     background-size:     cover;             
     background-repeat:   no-repeat;
     background-position: center center;
-    height:130px; 
+    height:130rem; 
   }
 
   .content .d-flex {
