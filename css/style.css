@@ -1,7 +1,7 @@
-*{
-    padding:0vw;
-    margin:0vw;
-    font-family: 'Shippori Mincho', serif
+* {
+  padding: 0vw;
+  margin: 0vw;
+  font-family: "Shippori Mincho", serif;
 }
 body {
   width: 100vw;
@@ -20,7 +20,7 @@ body {
   font-weight: 500;
   /* padding: 12px 70px 10px 0; */
   padding: 0vw 0vw 0vw 0.7vw;
-  letter-spacing: -0.40px;
+  letter-spacing: -0.4px;
 }
 .nav-link {
   font-weight: 500;
@@ -39,18 +39,18 @@ nav.nav.side-nav {
   padding-right: 0.8vw;
 }
 
-.banner{
-    background-image: url('../images/banner.jpg');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    /* height:247.08px; */
-    height: 14.7vw;
-    display: flex;
-    justify-content: center;
-    /* margin-bottom: 155psx; */
-    margin-bottom: 9.2vw;
-    margin-top: 0.2vw;
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* height:247.08px; */
+  height: 14.7vw;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 155psx; */
+  margin-bottom: 9.2vw;
+  margin-top: 0.2vw;
 }
 
 .mobile-banner {
@@ -70,7 +70,7 @@ nav.nav.side-nav {
 .diamond {
   padding-top: 12.588vw;
   /* width: 3.90vw; 50px */
-  height: 3.90vw;
+  height: 3.9vw;
   /* transform: rotate(45deg);
   margin: 0 auto;
   position: relative;
@@ -78,11 +78,11 @@ nav.nav.side-nav {
   z-index: 999;
   z-index: 999;  */
 }
-.pr-10rem{
-  padding-right:5.208vw; 
+.pr-10rem {
+  padding-right: 5.208vw;
 }
-.p-10rem{
-  padding:5.208vw;
+.p-10rem {
+  padding: 5.208vw;
 }
 
 .wrap-text {
@@ -149,7 +149,7 @@ nav.nav.side-nav {
   letter-spacing: 0.37vw;
   padding: 0 0 0 0;
 }
-.srchdiv{
+.srchdiv {
   /* padding-top: 11px; */
   /* padding-top: 0.647vw; */
   /* padding-bottom: 415px; */
@@ -160,7 +160,7 @@ nav.nav.side-nav {
   height: 52px;
   padding: 0 10px 0 10px;
 }
-.srchdiv .search  {
+.srchdiv .search {
   /* width: 383.15px; */
   width: 60vw;
   text-align: left;
@@ -196,7 +196,7 @@ label.d-flex.justify-content-center {
 }
 .contacts span {
   padding: auto;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   /* line-height: 20px; */
   line-height: 1.176vw;
   /* font-size: 11px; */
@@ -209,7 +209,7 @@ label.d-flex.justify-content-center {
 .nav-footer a {
   /* padding: 0 43px 0 43px; */
   width: 8.3vw;
-    padding: 0vw 0vw 0vw 0vw;
+  padding: 0vw 0vw 0vw 0vw;
   /* font-size: 18px; */
   font-size: 1vw;
 }
@@ -218,16 +218,13 @@ label.d-flex.justify-content-center {
   padding: 5.1vw 5.2vw 0 0;
 }
 .copyright p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   /* font-size: 12px; */
   font-size: 0.7vw;
 }
 
-
-
-
-@media only screen and (max-width: 899px) {
+@media only screen and (max-width: 576px) {
   body {
     width: 100vw;
   }
@@ -246,7 +243,7 @@ label.d-flex.justify-content-center {
     padding: 30vw 0vw 6.9vw 0vw;
     text-align: center;
   }
-  
+
   .wrap-text2 h2 {
     font-size: 3.765vw;
   }
@@ -267,6 +264,9 @@ label.d-flex.justify-content-center {
   .hr-lines {
     display: none;
   }
+  .top-text {
+    display: none;
+  }
 
   .title span {
     font-size: 4.8vw;
@@ -284,9 +284,7 @@ label.d-flex.justify-content-center {
   }
 }
 
-
 @media only screen and (max-width: 390px) {
-
   .banner {
     display: none;
   }
@@ -298,8 +296,8 @@ label.d-flex.justify-content-center {
   }
   .mobile-banner {
     display: block;
-    background-image: url('../images/mobile-banner.jpg');
-    background-size:cover;
+    background-image: url("../images/mobile-banner.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 23vw;
@@ -331,7 +329,7 @@ label.d-flex.justify-content-center {
   .wrap-text3 h2 {
     letter-spacing: 0.9vw;
   }
-  
+
   .wrap-text4 {
     width: 80vw;
     margin: auto;
@@ -368,10 +366,9 @@ label.d-flex.justify-content-center {
   .navbar-nav li a {
     /* padding: 0 70px 0 0; */
     width: 12.7vw;
-    font-size:12px;
+    font-size: 12px;
   }
 }
-
 
 /* @media only screen and (max-width: 600px) {
   .banner{
